@@ -1,8 +1,8 @@
-# TalentScout Hiring Assistant 🤖
+# TalentScout Hiring Assistant 
 
 A sophisticated AI-powered hiring assistant chatbot built for TalentScout recruitment agency. This intelligent system streamlines the initial candidate screening process by gathering essential information and generating personalized technical questions based on the candidate's declared tech stack.
 
-## 🚀 Features
+##  Features
 
 ### Core Functionality
 - **Intelligent Information Gathering**: Collects candidate details including name, contact info, experience, and desired positions
@@ -18,7 +18,7 @@ A sophisticated AI-powered hiring assistant chatbot built for TalentScout recrui
 - **Data Validation**: Comprehensive input validation and sanitization
 - **Export Functionality**: Download complete session data for analysis
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - Python 3.8+
@@ -33,7 +33,7 @@ python-dotenv>=1.0.0
 pydantic>=2.0.0
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ### Step 1: Clone or Download
 ```bash
@@ -77,7 +77,7 @@ streamlit run app.py
 
 The application will open in your default browser at `http://localhost:8501`
 
-## 🎯 Usage Guide
+##  Usage Guide
 
 ### For Candidates
 1. **Start Conversation**: The chatbot greets you and explains the process
@@ -92,7 +92,7 @@ The application will open in your default browser at `http://localhost:8501`
 3. **Export Data**: Download complete session data for further analysis
 4. **Manage Sessions**: Start new conversations or reset current ones
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 talentscout-chatbot/
@@ -106,7 +106,7 @@ talentscout-chatbot/
 └── README.md            # This file
 ```
 
-## 🧠 Technical Architecture
+##  Technical Architecture
 
 ### Core Components
 
@@ -176,7 +176,7 @@ talentscout-chatbot/
 - Tech stack recognition accuracy
 - Question relevance assessment
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Local Deployment (Current)
 - Direct execution with `streamlit run app.py`
@@ -236,7 +236,7 @@ Enable debug logging by setting environment variable:
 export STREAMLIT_LOGGER_LEVEL=debug
 ```
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Response Times
 - **Groq API**: ~200-500ms average response time
@@ -249,7 +249,7 @@ export STREAMLIT_LOGGER_LEVEL=debug
 - **Tech Stack Recognition**: ~90% for common technologies
 - **Question Relevance**: Based on experience level and tech stack
 
-## 🤝 Contributing
+##  Contributing
 
 ### Code Style
 - Follow PEP 8 Python style guidelines
@@ -263,7 +263,7 @@ export STREAMLIT_LOGGER_LEVEL=debug
 - Check edge cases and error scenarios
 - Ensure UI responsiveness
 
-## 📞 Support
+##  Support
 
 ### Documentation
 - Code comments explain complex logic
@@ -273,10 +273,10 @@ export STREAMLIT_LOGGER_LEVEL=debug
 ### Contact
 For technical support or questions about the implementation, refer to the code comments and docstrings throughout the project.
 
-## 📄 License
+##  License
 
 This project is created for educational and demonstration purposes as part of an AI/ML internship assignment.
 
 ---
 
-**Built with ❤️ for TalentScout | Powered by Groq API & Streamlit**
+**Built by yashodip for TalentScout | Powered by Groq API & Streamlit**
